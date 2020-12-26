@@ -1,0 +1,13 @@
+
+
+.daily > input{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+height: 40px;
+border-radius: 10px;
+border: none;
+outline: none;
+}
