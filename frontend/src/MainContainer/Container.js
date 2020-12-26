@@ -5,8 +5,8 @@ import Note from './Note'
 function Container() {
     return (
         <div className="main">
-            <DailyInput/>
-            {/* <Note/> */}
+            {/* <DailyInput/> */}
+            <Note/>
         </div>
     )
 }

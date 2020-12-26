@@ -13,8 +13,8 @@ import './App.css';
 import Home from './Home';
 import Navbar from './MainContainer/Navbar';
 
-function App() {
 
+function App() {
   return (
   <div className="App">
     <Portal/>

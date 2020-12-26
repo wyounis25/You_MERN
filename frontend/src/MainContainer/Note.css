@@ -1,0 +1,54 @@
+.note{
+display: flex;
+flex-direction: column;
+align-content: center;
+
+}
+
+.note__title{
+    flex-direction: column;
+}
+
+.note__title input{
+    height: 60px;
+    width: 700px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    outline: none;
+    box-shadow: 0px 10px 18px -0px #363020;
+
+}
+
+.note__pad{
+display: flex;
+align-items:flex-start;
+text-align:left;
+}
+.note__pad textarea{
+display: flex;
+align-items:flex-start;
+text-align:left;
+
+width: 700px;
+height: 700px;
+border: none;
+resize: none;
+outline: none;
+    box-shadow: 0px 10px 18px -0px #363020;
+
+
+}
+
+.note__icons{
+display: flex;
+align-content: center;
+justify-content: center;
+margin: 10px
+}
+
+.icon:hover{
+color:tomato !important;
+border-radius: 5px;
+background-color: rgba(93, 99, 102, 0.5)
+}
